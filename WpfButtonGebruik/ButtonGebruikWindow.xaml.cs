@@ -50,5 +50,7 @@ namespace WpfButtonGebruik
             if (LabelTekst.FontSize > 1)
                 LabelTekst.FontSize--;
         }
+
+
     }
 }

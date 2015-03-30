@@ -6,7 +6,7 @@
     <StackPanel>
         <Label BorderBrush="Black" BorderThickness="2" x:Name="LabelTekst" Height="50" Content="Dit is de tekstblok die we gaan aanpassen"/>
         <StackPanel Orientation="Horizontal">
-            <ToggleButton Margin="10" x:Name="ButtonBold" Content="Bold" Checked="ButtonBold_Checked" Unchecked="ButtonBold_Unchecked"/>
+            <ToggleButton Margin="10" x:Name="ButtonBold" Content="Bold" Checked="ButtonBold_Checked"/>
             <ToggleButton Margin="10" x:Name="ButtonItalic" Content="Italic" Click="ButtonItalic_Click"/>
             <TextBlock Margin="10">Lettertype vergroten of verkleinen</TextBlock>
             <RepeatButton Margin="10" Width="30" Name="RepeatButtonGroter" Interval="100" Delay="1000" Click="RepeatButtonGroter_Click">+</RepeatButton>
